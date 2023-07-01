@@ -133,9 +133,9 @@ const WebGIViewer = forwardRef((props, ref) => {
     setPreviewMode(false)
 
     gsap.to(positionRef, {
-      x: !isMobile ? -3.38 : -7.0,
-      y: !isMobile ? -10.74 : 12.2,
-      z: !isMobile ? -5.93 : -6.0,
+      x: !isMobile ? 1.56 : 9.36,
+      y: !isMobile ? 5.0 : 10.95,
+      z: !isMobile ? 0.011 : 0.09,
       scrollTrigger: {
         trigger: '.display-section',
         start: 'top bottom',
@@ -149,9 +149,9 @@ const WebGIViewer = forwardRef((props, ref) => {
       },
     })
     gsap.to(targetRef, {
-      x: !isMobile ? 1.53 : 0.7,
-      y: !isMobile ? 0.77 : 1.9,
-      z: !isMobile ? -1.08 : 0.7,
+      x: !isMobile ? -0.55 : -1.62,
+      y: !isMobile ? 0.32 : 0.02,
+      z: !isMobile ? 0.0 : 0.06,
       scrollTrigger: {
         trigger: '.display-section',
         start: 'top bottom',
