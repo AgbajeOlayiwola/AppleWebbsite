@@ -296,8 +296,8 @@ nav .link-styled {
   justify-content: center;
   align-items: center;
   animation-name: fadeOut;
-  animation-duration: 0.3s;
-  animation-delay: 3s;
+  animation-duration: 3.3s;
+  animation-delay: 5s;
   animation-fill-mode: forwards;
   pointer-events: none;
 }
